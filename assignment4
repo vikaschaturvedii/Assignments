@@ -1,0 +1,45 @@
+# Example using break
+print("Example using break:")
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    if num == 3:
+        break
+    print(num)
+print()
+
+# Example using pass
+print("Example using pass:")
+for i in range(5):
+    if i == 2:
+        pass
+    print(i)
+print()
+
+# Example using continue
+print("Example using continue:")
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
+print()
+
+# Example of for loop with else
+print("Example of for loop with else:")
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    if fruit == "banana":
+        print("Found the banana!")
+        break
+    print(fruit)
+else:
+    print("Banana not found!")
+print()
+
+# Example of while loop with else
+print("Example of while loop with else:")
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+else:
+    print("Loop completed!")
