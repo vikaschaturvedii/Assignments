@@ -1,4 +1,4 @@
-n1 = float(input("Enter the mark for n1: "))
+n1 = at(input("Enter the mark for n1: "))
 n2 = float(input("Enter the mark for n2: "))
 n3 = float(input("Enter the mark for n3: "))
 
